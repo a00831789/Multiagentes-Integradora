@@ -13,9 +13,12 @@ Esteban Martinez - A00831789
 ### **a. Describe la situación y/o problema a simular**
 Lo que busca esta simulación es como sería el funcionamiento de los de las limpiadoras Roomba, por medio de que las limpiadoras sean capaces de identificar las casillas sucias y limpiarlas. Así también se define al principio del programa el número de limpiadoras y su rango de distancias en el que pueden ver las casillas sucias
 ### **b. Describe los agentes involucrados así como sus acciones y percepciones**
-
+Los agentes involucrados son las limpiadoras y la suciedad del piso (Cleaner y Dirt). 
+Las limpiadoras tienen la capacidad de moverse en todo el grid predeterminado por medio de no chocar con otras limpiadoras, así también de poder identificar los spots en donde se encuentra sucio y poder desaparecer dicha suciedad.
+El Dirt tiene la capacidad de aparecer en el grid de forma aleatoria conforme el piso lo defina.
 ### **c. Describe cómo interactúan y se comunican dos o más agentes del mismo** 
-
+Las limpiadoras tienen la capacidad de moverse por todo el mapa sin afectar la simulación de las otras limpiadoras, por medio de respetar en el espacio que se ubican. Así también tienen la capacidad de analizar el grid en un rango determinado y así poder trabajar de una manera más inteligente por medio de dirigirse a todos los spots sucios sin perder mucho tiempo. Adicionalmente, están programados que cada limpiadora cuenta con un número de pasos para poder limpiar todo el grid, simulando en la vida real con el hecho que las limpiadoras cuentan con una batería.
+La suciedad del piso aparece de forma aleatoria en el piso y no pueden aparecer suciedad encima de otra o fuera del grid.
 ### **d. Describe el entorno**
 
 ### **e. Identifica  las  variables  y  los  parámetros  que  determinan  el  funcionamiento  del sistema.**
