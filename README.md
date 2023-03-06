@@ -20,7 +20,7 @@ El Dirt tiene la capacidad de aparecer en el grid de forma aleatoria conforme el
 Las limpiadoras tienen la capacidad de moverse por todo el mapa sin afectar la simulación de las otras limpiadoras, por medio de respetar en el espacio que se ubican. Así también tienen la capacidad de analizar el grid en un rango determinado y así poder trabajar de una manera más inteligente por medio de dirigirse a todos los spots sucios sin perder mucho tiempo. Adicionalmente, están programados que cada limpiadora cuenta con un número de pasos para poder limpiar todo el grid, simulando en la vida real con el hecho que las limpiadoras cuentan con una batería.
 La suciedad del piso aparece de forma aleatoria en el piso y no pueden aparecer suciedad encima de otra o fuera del grid.
 ### **d. Describe el entorno**
-
+El modelo Floor tiene la capacidad de simular los agentes por medio de generar de forma aleatoria la suciedad que se va a encontrar en el piso como la posición de los robots predeterminados. Así también, cuenta con el data collector que se encarga el obtener la información de la simulación en cada paso por medio de poder mostrar como los robots van desapareciendo los spots sucios dentro del grid.
 ### **e. Identifica  las  variables  y  los  parámetros  que  determinan  el  funcionamiento  del sistema.**
 
 ### **f. Describe el proceso de simulación**
