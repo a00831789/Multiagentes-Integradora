@@ -22,7 +22,21 @@ La suciedad del piso aparece de forma aleatoria en el piso y no pueden aparecer 
 ### **d. Describe el entorno**
 El modelo Floor tiene la capacidad de simular los agentes por medio de generar de forma aleatoria la suciedad que se va a encontrar en el piso como la posición de los robots predeterminados. Así también, cuenta con el data collector que se encarga el obtener la información de la simulación en cada paso por medio de poder mostrar como los robots van desapareciendo los spots sucios dentro del grid.
 ### **e. Identifica  las  variables  y  los  parámetros  que  determinan  el  funcionamiento  del sistema.**
+Los inits del modelo Floor y los Agentes Cleaner y Dirt.
+La función def random_list(inf, sup, n) para la clase Floor.
+**Floor:**
+*def populate(self, num_cleaners, num_dirt, cleaner_rad)
+*def get_grid(self):
+*def get_rem_dirt(self): 
+*def step(self):
 
+**Cleaner**
+* def choose_next_pos(self): 
+* def find_dirt_pos(self):
+* def closest_pos(self, positions): 
+* def aproximate(self, dirt_pos): 
+* def step(self):
+* def advance(self):
 ### **f. Describe el proceso de simulación**
 
 ### **g. Discute clara y concisamente los resultados obtenidos**
