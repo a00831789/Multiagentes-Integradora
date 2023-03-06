@@ -24,13 +24,14 @@ El modelo Floor tiene la capacidad de simular los agentes por medio de generar d
 ### **e. Identifica  las  variables  y  los  parámetros  que  determinan  el  funcionamiento  del sistema.**
 Los inits del modelo Floor y los Agentes Cleaner y Dirt.
 La función def random_list(inf, sup, n) para la clase Floor.
-**Floor:**
-*def populate(self, num_cleaners, num_dirt, cleaner_rad)
-*def get_grid(self):
-*def get_rem_dirt(self): 
-*def step(self):
 
-**Cleaner**
+**Floor:**
+* def populate(self, num_cleaners, num_dirt, cleaner_rad)
+* def get_grid(self):
+* def get_rem_dirt(self): 
+* def step(self):
+
+**Cleaner:**
 * def choose_next_pos(self): 
 * def find_dirt_pos(self):
 * def closest_pos(self, positions): 
