@@ -10,6 +10,18 @@ Esteban Martinez - A00831789
 
 ## **Explicación**
 
+
+### **a. Describe la situación y/o problema a simular**
+b. Describe los agentes involucrados así como sus acciones y percepciones
+c. Describe cómo interactúan y se comunican dos o más agentes del mismo 
+d. Describe el entorno
+e. Identifica  las  variables  y  los  parámetros  que  determinan  el  funcionamiento  del 
+sistema.
+f. Describe el proceso de simulación
+g. Discute clara y concisamente los resultados obtenidos
+h. Agrega el link al repositorio.
+
+
 El programa implementado hace una visualización de lo que serían los robots tipo Roomba, los cuales limpian una cuadrícula con base a la suciedad que se encuentre. Primero, se tendría que definir el tamaño de la cuadrícula y la posición inicial de cada uno de los robots.
 
 Luego, se implementaría un ciclo que ejecutara los movimientos de los robots en cada paso, siempre y cuando no se cumplan ciertas condiciones de detención (como por ejemplo, que hayan limpiado toda la cuadrícula o que se hayan agotado la batería de los robots (pasos)).
