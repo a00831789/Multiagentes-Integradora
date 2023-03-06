@@ -39,7 +39,16 @@ La función def random_list(inf, sup, n) para la clase Floor.
 * def step(self):
 * def advance(self):
 ### **f. Describe el proceso de simulación**
+En esta simualción se declaran los colores en la matrícula tienen los siguientes significados:
+* Blanco: espacio vacío.
+* Negro: suciedad.
+* Azul: robot de limpieza.
 
+Por defecto aparecen 5 robots y conforme se haya indicado, estos contaran un rango de distancia para poder identificar los spots sucios.
+En la simulación cada robots cuenta con 100 pasos para poder limpiar todo el grid y entre todos los robots se encargan de desaparecer todos los spots sucios (cuadros negros) hasta que no quede ninguno restante en el grid.
+Así también que los robots no tienen la capacidad de salirse del grid como también de sobreponerse en el espacio que ya ocupe algúna otra limpiadora.
+En caso de que no se limpie todo el grid, se mostrara el resultado que se pudo lograr entre todas las limpiadoras.
 ### **g. Discute clara y concisamente los resultados obtenidos**
-
+Entre el número de robots dentro de la simulación como de su capacidad de inteligencia (rango de distancia para detectar espacios sucios), se determinó que un incremento en el número de robots de limpieza aumenta el número final de celdas limpias, pero dicho aumento es inferior al producido por un incremento en el radio de los 'sensores' de los robots, lo que indica que la 'inteligencia' de los robots es más determinante que el número de robots en la simulación.
 ### **h. Agrega el link al repositorio.**
+
