@@ -51,4 +51,5 @@ En caso de que no se limpie todo el grid, se mostrara el resultado que se pudo l
 ### **g. Discute clara y concisamente los resultados obtenidos**
 Entre el número de robots dentro de la simulación como de su capacidad de inteligencia (rango de distancia para detectar espacios sucios), se determinó que un incremento en el número de robots de limpieza aumenta el número final de celdas limpias, pero dicho aumento es inferior al producido por un incremento en el radio de los 'sensores' de los robots, lo que indica que la 'inteligencia' de los robots es más determinante que el número de robots en la simulación.
 ### **h. Agrega el link al repositorio.**
+[link text](https://github.com/a00831789/Multiagentes-Integradora.git)
 
